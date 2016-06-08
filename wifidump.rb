@@ -1,10 +1,10 @@
 class Wifidump < Formula
 	depends_on "iperf3"
   homepage "https://github.com/deichcode/wifidump"
-  url "https://github.com/deichcode/wifidump/archive/0.1.tar.gz"
-  sha256 "0569847d032f239ccdb884378714e2d49ada6d02acac29d17de942225e9d9c6c"
+  url "https://github.com/deichcode/wifidump/archive/0.2.tar.gz"
+  sha256 "1d2e8a2cb23222f3718e0904a4f45935b6dab57e8afffd4ac810739dee98c845"
 
   def install
-	bin.install "wifi_dump.sh"
+	bin.install "wifidump"
   end
 end
